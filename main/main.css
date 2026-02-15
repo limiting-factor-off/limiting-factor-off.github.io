@@ -1,0 +1,45 @@
+/* CSS StyleSheet */
+
+:root {
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    transition: 0.3s;
+
+    div.titlebox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(20vh);
+        h1 {
+            font-size: 5em;
+            margin: 0;
+        }
+        h2 {
+            font-size: 3em;
+            margin: 0;
+            transition: 0.5s;
+        }
+    }
+    
+    .divider {
+        align-self: center;
+        width: 75%;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        margin: 10px 0;
+        transition: 0.5s;
+    }
+}
