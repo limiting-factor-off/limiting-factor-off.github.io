@@ -10,10 +10,10 @@ var error = new Audio("assets/audio/error.mp3");
 var floppyDisk = new Audio("assets/audio/floppy-disk-insert.mp3");
 
 console.log('Script Loaded')
-// alert('Script Working')
+
 // Boot Up Sequence
 
-var skipSequence = false;
+// var skipSequence = false;
 
 function playBootUpSequence() {
   if (skipSequence === false) {
